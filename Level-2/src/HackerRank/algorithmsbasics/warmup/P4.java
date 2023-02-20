@@ -9,6 +9,7 @@ import java.util.concurrent.*;
 import java.util.function.*;
 import java.util.regex.*;
 import java.util.stream.*;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
@@ -26,11 +27,11 @@ class Result4 {
                 sum2 = 0;
 
         int columnSize;
-        for (int i = 0; i< arr.size(); i++) {
-            columnSize = arr.get(i).size()-1;
+        for (int i = 0; i < arr.size(); i++) {
+            columnSize = arr.get(i).size() - 1;
 
             sum1 += arr.get(i).get(i);
-            sum2 += arr.get(i).get(columnSize-i);
+            sum2 += arr.get(i).get(columnSize - i);
         }
 
         return Math.abs(sum1 - sum2);

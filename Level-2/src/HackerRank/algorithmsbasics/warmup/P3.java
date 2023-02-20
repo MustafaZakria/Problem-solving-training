@@ -31,7 +31,7 @@ class Result3 {
         for (int i = 0; i < a.size(); i++) {
             if (a.get(i) > b.get(i))
                 aliceScore++;
-            else if(a.get(i) < b.get(i))
+            else if (a.get(i) < b.get(i))
                 bobScore++;
         }
 
@@ -63,5 +63,7 @@ public class P3 {
 
         bufferedReader.close();
         bufferedWriter.close();
+
+
     }
 }
