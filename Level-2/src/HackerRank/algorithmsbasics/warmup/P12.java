@@ -1,16 +1,9 @@
+package HackerRank.algorithmsbasics.warmup;
+
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
 
 import static java.lang.Math.toIntExact;
 import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 class Result12 {
 
@@ -38,7 +31,7 @@ class Result12 {
             return toIntExact(number);
 
         long temp = 0;
-        while(number > 0) {
+        while (number > 0) {
             temp += (number % 10);
             number /= 10;
         }
