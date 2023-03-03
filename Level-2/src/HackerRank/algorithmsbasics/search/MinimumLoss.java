@@ -1,18 +1,18 @@
 package HackerRank.algorithmsbasics.search;
 
 import java.io.*;
-        import java.math.*;
-        import java.security.*;
-        import java.text.*;
-        import java.util.*;
-        import java.util.concurrent.*;
-        import java.util.function.*;
-        import java.util.regex.*;
-        import java.util.stream.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
 
 import static java.lang.Math.toIntExact;
 import static java.util.stream.Collectors.joining;
-        import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toList;
 
 class Result7 {
 
@@ -25,36 +25,21 @@ class Result7 {
 
     public static int minimumLoss(List<Long> price) {
 
-        List<Long> copy = new ArrayList<>(price);
-        Collections.sort(copy);
+        long minLoss = Integer.MAX_VALUE;
 
-        HashMap<Long, Integer> hashCopy = new HashMap<>();
-        for(int i = 0; i < copy.size(); i++) {
-            hashCopy.put(copy.get(i), i);
+        ArrayList<Long> p2 = new ArrayList<>(price);
+
+        Collections.sort(p2);
+
+
+        for (int i = price.size() - 1; i > 0; i--) {
+            long a = p2.get(i);
+            long b = p2.get(i - 1);
+            if (a - b < minLoss && price.indexOf(a) < price.indexOf(b))
+                minLoss = a - b;
         }
 
-        List<Long> result = new ArrayList<>();
-        for(Long p : price) {
-            if(!Objects.equals(p, copy.get(0))) {
-                int index = hashCopy.get(p) - 1;
-//                while(!hashCopy.containsValue(index) && index > 0) {
-//                    index--;
-//                }
-//                if(hashCopy.containsValue(index))
-//                    result.add(p - copy.get(index));
-                if(index >= 0) {
-                    System.out.println(p + "-" + copy.get(index) + "=" + (p - copy.get(index)));
-                    System.out.println(index);
-                    result.add(p - copy.get(index));
-                }
-            }
-            copy.remove(p);
-            hashCopy.remove(p);
-            System.out.println(copy.toString());
-        }
-
-        System.out.println(result);
-        return toIntExact(Collections.min(result));
+        return Math.toIntExact(minLoss);
     }
 
 }
