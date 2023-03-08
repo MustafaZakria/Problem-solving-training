@@ -1,48 +1,36 @@
 package HackerRank.algorithmsbasics.sorting;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
 import java.util.stream.*;
-
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result9 {
+class Result7 {
 
     /*
-     * Complete the 'countingSort' function below.
+     * Complete the 'quickSort' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-    public static List<Integer> countingSort(List<Integer> arr) {
-        int max = Collections.max(arr) + 1;
-        Integer[] tempArray = new Integer[max];
-        for (int i = 0; i < max; i++)
-            tempArray[i] = 0;
-        for (Integer integer : arr)
-            tempArray[integer]++;
-        for (int k = 1; k < max; k++)
-            tempArray[k] += tempArray[k - 1];
-
-        Integer[] result = new Integer[arr.size()];
-        for (int l = result.length - 1; l >= 0; l--) {
-            result[tempArray[arr.get(l)] - 1] = arr.get(l);
-            tempArray[arr.get(l)]--;
+    public static List<Integer> quickSort(List<Integer> arr) {
+        int pivot = arr.get(0),
+                j = 0;
+        for(int i = 1; i < arr.size(); i++) {
+            if(arr.get(i) <= pivot) {
+                j++;
+                Collections.swap(arr, j, i);
+            }
         }
-        return Arrays.asList(result);
+        Collections.swap(arr, j, 0);
+        return arr;
     }
 
 }
 
-public class P9 {
+public class QuickSort1 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -53,7 +41,7 @@ public class P9 {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> result = Result9.countingSort(arr);
+        List<Integer> result = Result7.quickSort(arr);
 
         bufferedWriter.write(
                 result.stream()

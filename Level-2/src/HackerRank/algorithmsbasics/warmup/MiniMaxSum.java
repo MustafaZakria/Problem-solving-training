@@ -1,13 +1,7 @@
 package HackerRank.algorithmsbasics.warmup;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
 import java.util.stream.*;
 
 import static java.util.stream.Collectors.joining;
@@ -45,7 +39,7 @@ class Result7 {
 
 }
 
-public class P7 {
+public class MiniMaxSum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

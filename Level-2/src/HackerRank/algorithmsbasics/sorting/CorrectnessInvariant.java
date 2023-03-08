@@ -1,8 +1,7 @@
 package HackerRank.algorithmsbasics.sorting;
-import java.io.*;
 import java.util.*;
 
-public class P5 {
+public class CorrectnessInvariant {
 
     public static void insertionSort(int[] A){
         for(int i = 1; i < A.length; i++){

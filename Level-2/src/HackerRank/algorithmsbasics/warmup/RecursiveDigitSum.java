@@ -41,7 +41,7 @@ class Result12 {
 
 }
 
-public class P12 {
+public class RecursiveDigitSum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
