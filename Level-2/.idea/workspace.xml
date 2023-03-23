@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd5ad24d-1da9-4763-bff5-6318a83b7eee" name="Changes" comment="renamed problems">
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/algorithmsbasics/Implementation_III/ClimbingTheLeaderboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result9.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/HackerRank/algorithmsbasics/Implementation_III/ClimbingTheLeaderboard.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LPy2WO82Y5936I8NJPRw3tkTLU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Problem-solving-training",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ClimbingTheLeaderboard (2)">
+    <configuration name="CavityMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.algorithmsbasics.Implementation_III.CavityMap" />
+      <module name="Level-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.algorithmsbasics.Implementation_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingTheLeaderboard (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.algorithmsbasics.Implementation_III.ClimbingTheLeaderboard" />
+      <module name="Level-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.algorithmsbasics.Implementation_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingTheLeaderboard (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.algorithmsbasics.Implementation_III.ClimbingTheLeaderboard" />
+      <module name="Level-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.algorithmsbasics.Implementation_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingTheLeaderboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.algorithmsbasics.Implementation_III.ClimbingTheLeaderboard" />
+      <module name="Level-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.algorithmsbasics.Implementation_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManasaAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.algorithmsbasics.Implementation_III.ManasaAndStones" />
+      <module name="Level-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.algorithmsbasics.Implementation_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Level-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Level-2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClimbingTheLeaderboard (2)" />
+        <item itemvalue="Application.ClimbingTheLeaderboard (1)" />
+        <item itemvalue="Application.ClimbingTheLeaderboard" />
+        <item itemvalue="Application.ManasaAndStones" />
+        <item itemvalue="Application.CavityMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd5ad24d-1da9-4763-bff5-6318a83b7eee" name="Changes" comment="" />
+      <created>1675786808132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675786808132</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Solved p10">
+      <created>1676919436562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676919436562</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solved p12">
+      <created>1676938119911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676938119911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Solved p1 sorting">
+      <created>1677005697940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005697940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solved p12">
+      <created>1677005739807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005739807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Solved p1 sorting">
+      <created>1677007105762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677007105762</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solved p1 sorting">
+      <created>1677007412639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677007412639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Solved some sorting problems">
+      <created>1677105959717</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677105959717</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solved P13 sorting problem">
+      <created>1677164834606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677164834606</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Solved search problems">
+      <created>1677523762044</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677523762044</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Solved implementation problems">
+      <created>1677699765155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677699765155</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Solved implementation problems">
+      <created>1677772555906</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677772555906</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Solved some problems">
+      <created>1677883022097</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677883022097</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Solved some problems">
+      <created>1678143362598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678143362598</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Solved some problems">
+      <created>1678226243487</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678226243487</updated>
+    </task>
+    <task id="LOCAL-00015" summary="renamed problems">
+      <created>1678314913211</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678314913211</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Solved p10" />
+    <MESSAGE value="Solved p12" />
+    <MESSAGE value="Solved p1 sorting" />
+    <MESSAGE value="Solved some sorting problems" />
+    <MESSAGE value="Solved P13 sorting problem" />
+    <MESSAGE value="Solved search problems" />
+    <MESSAGE value="Solved implementation problems" />
+    <MESSAGE value="Solved some problems" />
+    <MESSAGE value="renamed problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed problems" />
+  </component>
+</project>
