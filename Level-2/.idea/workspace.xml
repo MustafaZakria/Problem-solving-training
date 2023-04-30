@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5ad24d-1da9-4763-bff5-6318a83b7eee" name="Changes" comment="renamed problems">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/algorithmsbasics/Implementation_III/ClimbingTheLeaderboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/P9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result11$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/sorting/Result9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/P9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Level-2/HackerRank/algorithmsbasics/warmup/Result9.class" beforeDir="false" />
-    </list>
+    <list default="true" id="bd5ad24d-1da9-4763-bff5-6318a83b7eee" name="Changes" comment="renamed problems" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +37,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Problem-solving-training",
+    "last_opened_file_path": "D:/Problem-solving-training/Level-2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
