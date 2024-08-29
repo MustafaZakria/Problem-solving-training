@@ -1,4 +1,4 @@
-package LeetCode.basicalgorithms.gready_I;
+package LeetCode.basicalgorithms.binarysearch;
 
 public class ArrangingCoins {
     public int arrangeCoins(int n) {  // O(1)

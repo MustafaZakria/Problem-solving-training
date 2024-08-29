@@ -1,4 +1,4 @@
-package LeetCode.basicalgorithms.gready_I;
+package LeetCode.basicalgorithms.binarysearch;
 
 import java.util.*;
 import java.util.stream.Collectors;
